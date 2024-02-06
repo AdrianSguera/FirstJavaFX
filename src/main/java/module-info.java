@@ -1,8 +1,8 @@
-module org.example.firstjavafx {
+module com.ceica.firstjavafx {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens org.example.firstjavafx to javafx.fxml;
-    exports org.example.firstjavafx;
+    opens com.ceica.firstjavafx to javafx.fxml;
+    exports com.ceica.firstjavafx;
 }
