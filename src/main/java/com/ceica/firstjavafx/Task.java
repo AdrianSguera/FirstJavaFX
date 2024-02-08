@@ -44,13 +44,8 @@ public class Task {
         this.description = description;
     }
 
-    public boolean getBooleanStatus() {
+    public boolean getStatus() {
         return status;
-    }
-    public String getStatus() {
-        if (status)
-            return "Finished";
-        return "Unfinished";
     }
 
     public void setStatus(boolean status) {
